@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08f77ac2-2365-4ff8-a5e2-920cdd4d2c83" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-501259313">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="5055" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="5055" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/RocketLauncher.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+              <folding>
+                <marker date="1563203651827" expanded="true" signature="6:117" ph="..." />
+                <marker date="1563203651827" expanded="true" signature="119:268" ph="/// Это скрипт ракетной установки. Он ищет упреждение и управляет установкой, а так же считывает указание на пуск ... " />
+                <marker date="1563203651827" expanded="true" signature="313:8049" ph="{...}" />
+                <marker date="1563203651827" expanded="true" signature="377:1667" ph="Инспектор" />
+                <marker date="1563203651827" expanded="true" signature="1024:1107" ph="/// Минимальная дистанция для уничтожения цели ... " />
+                <marker date="1563203651827" expanded="true" signature="1219:1290" ph="/// Тип слижения за целью у ракеты ... " />
+                <marker date="1563203651827" expanded="true" signature="1364:1489" ph="/// Отслеживать скорость через перемещение между кадрами (Более натуральная погрешность) ... " />
+                <marker date="1563203651827" expanded="true" signature="1673:1828" ph="Локальные переменные" />
+                <marker date="1563203651827" expanded="true" signature="1854:1888" ph="{...}" />
+                <marker date="1563203651827" expanded="true" signature="1954:2057" ph="{...}" />
+                <marker date="1563203651827" expanded="true" signature="2104:2151" ph="{...}" />
+                <marker date="1563203651827" expanded="true" signature="2188:2432" ph="{...}" />
+                <marker date="1563203651827" expanded="true" signature="2490:2722" ph="{...}" />
+                <marker date="1563203651827" expanded="true" signature="2636:2716" ph="{...}" />
+                <marker date="1563203651827" expanded="true" signature="2754:3088" ph="{...}" />
+                <marker date="1563203651827" expanded="true" signature="3094:3203" ph="/// Наводит пусковую установку на упреждение ... " />
+                <marker date="1563203651827" expanded="true" signature="3234:5645" ph="{...}" />
+                <marker date="1563203651827" expanded="true" signature="3360:5422" ph="{...}" />
+                <marker date="1563203651827" expanded="true" signature="3371:3461" ph="/* if (_transformCheckSpeed) ... */" />
+                <marker date="1563203651827" expanded="true" signature="3499:3657" ph="{...}" />
+                <marker date="1563203651827" expanded="true" signature="3674:3769" ph="{...}" />
+                <marker date="1563203651827" expanded="true" signature="4094:4364" ph="{...}" />
+                <marker date="1563203651827" expanded="true" signature="4381:4653" ph="{...}" />
+                <marker date="1563203651827" expanded="true" signature="4696:5116" ph="{...}" />
+                <marker date="1563203651827" expanded="true" signature="4864:4945" ph="{...}" />
+                <marker date="1563203651827" expanded="true" signature="4966:5102" ph="{...}" />
+                <marker date="1563203651827" expanded="true" signature="5133:5301" ph="{...}" />
+                <marker date="1563203651827" expanded="true" signature="5866:6263" ph="{...}" />
+                <marker date="1563203651827" expanded="true" signature="6456:8042" ph="{...}" />
+                <marker date="1563203651827" expanded="true" signature="6718:7115" ph="{...}" />
+                <marker date="1563203651827" expanded="true" signature="7329:7799" ph="{...}" />
+                <marker date="1563203651827" expanded="true" signature="7531:7715" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MathUtilities.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+              <folding>
+                <marker date="1563194555971" expanded="false" signature="6:78" ph="..." />
+                <marker date="1563194555971" expanded="true" signature="107:2189" ph="{...}" />
+                <marker date="1563194555971" expanded="true" signature="151:538" ph="{...}" />
+                <marker date="1563194555971" expanded="true" signature="227:532" ph="{...}" />
+                <marker date="1563194555971" expanded="true" signature="576:2187" ph="{...}" />
+                <marker date="1563194555971" expanded="true" signature="666:858" ph="{...}" />
+                <marker date="1563194555971" expanded="true" signature="757:817" ph="{...}" />
+                <marker date="1563194555971" expanded="true" signature="939:1092" ph="{...}" />
+                <marker date="1563194555971" expanded="true" signature="1147:1423" ph="{...}" />
+                <marker date="1563194555971" expanded="true" signature="1237:1304" ph="{...}" />
+                <marker date="1563194555971" expanded="true" signature="1321:1388" ph="{...}" />
+                <marker date="1563194555971" expanded="true" signature="1492:1703" ph="{...}" />
+                <marker date="1563194555971" expanded="true" signature="1529:1590" ph="{...}" />
+                <marker date="1563194555971" expanded="true" signature="1607:1668" ph="{...}" />
+                <marker date="1563194555971" expanded="true" signature="1782:2163" ph="{...}" />
+                <marker date="1563194555971" expanded="true" signature="1922:1979" ph="{...}" />
+                <marker date="1563194555971" expanded="true" signature="2027:2084" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Rocket.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+              <folding>
+                <marker date="1563200375917" expanded="false" signature="6:103" ph="..." />
+                <marker date="1563200375917" expanded="true" signature="140:2333" ph="{...}" />
+                <marker date="1563200375917" expanded="true" signature="147:370" ph="Параметры ракеты" />
+                <marker date="1563200375917" expanded="true" signature="433:2043" ph="{...}" />
+                <marker date="1563200375917" expanded="true" signature="468:541" ph="{...}" />
+                <marker date="1563200375917" expanded="true" signature="712:818" ph="{...}" />
+                <marker date="1563200375917" expanded="true" signature="848:2037" ph="{...}" />
+                <marker date="1563200375917" expanded="true" signature="1376:1670" ph="{...}" />
+                <marker date="1563200375917" expanded="true" signature="1691:1987" ph="{...}" />
+                <marker date="1563200375917" expanded="true" signature="2172:2331" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/AirCraft.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-225">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <marker date="1563137296234" expanded="false" signature="6:78" ph="..." />
+                <marker date="1563137296234" expanded="true" signature="80:169" ph="/// Это скрипт самолета. Скрипт приводит самолет в движение. ... " />
+                <marker date="1563137296234" expanded="true" signature="208:1809" ph="{...}" />
+                <marker date="1563137296234" expanded="true" signature="215:352" ph="Параметры самолета" />
+                <marker date="1563137296234" expanded="true" signature="358:433" ph="Приватные переменные" />
+                <marker date="1563137296234" expanded="true" signature="490:634" ph="{...}" />
+                <marker date="1563137296234" expanded="true" signature="673:739" ph="{...}" />
+                <marker date="1563137296234" expanded="true" signature="763:806" ph="{...}" />
+                <marker date="1563137296234" expanded="true" signature="833:1807" ph="{...}" />
+                <marker date="1563137296234" expanded="true" signature="975:1679" ph="{...}" />
+                <marker date="1563137296234" expanded="true" signature="1177:1236" ph="{...}" />
+                <marker date="1563137296234" expanded="true" signature="1531:1606" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/AirCraftSpawner.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+              <folding>
+                <marker date="1563137373952" expanded="false" signature="6:78" ph="..." />
+                <marker date="1563137373952" expanded="true" signature="124:1976" ph="{...}" />
+                <marker date="1563137373952" expanded="true" signature="132:189" ph="/// Создает самолеты ... " />
+                <marker date="1563137373952" expanded="true" signature="199:873" ph="Инспектор" />
+                <marker date="1563137373952" expanded="true" signature="337:444" ph="/// Список с кривой поворотов (где 1\-1 это 360 и -360, где T = время) ... " />
+                <marker date="1563137373952" expanded="true" signature="511:600" ph="/// Минимальная и Максимальна скорость для самолета (d км\с) ... " />
+                <marker date="1563137373952" expanded="true" signature="683:780" ph="/// Минимальная и Максимальна задержка перед спавно самолета ... " />
+                <marker date="1563137373952" expanded="true" signature="879:929" ph="Локальные переменные" />
+                <marker date="1563137373952" expanded="true" signature="964:1013" ph="{...}" />
+                <marker date="1563137373952" expanded="true" signature="1042:1795" ph="{...}" />
+                <marker date="1563137373952" expanded="true" signature="1172:1301" ph="{...}" />
+                <marker date="1563137373952" expanded="true" signature="1866:1895" ph="{...}" />
+                <marker date="1563137373952" expanded="true" signature="1953:1974" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MathUtilities.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirCraft.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AirCraftSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RocketLauncher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rocket.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/AirCraft.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AirCraftSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MathUtilities.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Rocket.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RocketLauncher.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="307" />
+    <option name="width" value="656" />
+    <option name="height" value="456" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+    </list>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08f77ac2-2365-4ff8-a5e2-920cdd4d2c83" name="Default Changelist" comment="" />
+      <created>1562943521583</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562943521583</updated>
+      <workItem from="1562943545854" duration="34532000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="34532000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.32980332" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="1" />
+      <window_info anchor="bottom" id="Unit Tests" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="NuGet" order="6" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="0" />
+      <window_info anchor="right" id="Errors In Solution" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AirCraftSpawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+          <folding>
+            <marker date="1563137373952" expanded="false" signature="6:78" ph="..." />
+            <marker date="1563137373952" expanded="true" signature="124:1976" ph="{...}" />
+            <marker date="1563137373952" expanded="true" signature="132:189" ph="/// Создает самолеты ... " />
+            <marker date="1563137373952" expanded="true" signature="199:873" ph="Инспектор" />
+            <marker date="1563137373952" expanded="true" signature="337:444" ph="/// Список с кривой поворотов (где 1\-1 это 360 и -360, где T = время) ... " />
+            <marker date="1563137373952" expanded="true" signature="511:600" ph="/// Минимальная и Максимальна скорость для самолета (d км\с) ... " />
+            <marker date="1563137373952" expanded="true" signature="683:780" ph="/// Минимальная и Максимальна задержка перед спавно самолета ... " />
+            <marker date="1563137373952" expanded="true" signature="879:929" ph="Локальные переменные" />
+            <marker date="1563137373952" expanded="true" signature="964:1013" ph="{...}" />
+            <marker date="1563137373952" expanded="true" signature="1042:1795" ph="{...}" />
+            <marker date="1563137373952" expanded="true" signature="1172:1301" ph="{...}" />
+            <marker date="1563137373952" expanded="true" signature="1866:1895" ph="{...}" />
+            <marker date="1563137373952" expanded="true" signature="1953:1974" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Rocket.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <marker date="1563200375917" expanded="false" signature="6:103" ph="..." />
+            <marker date="1563200375917" expanded="true" signature="140:2333" ph="{...}" />
+            <marker date="1563200375917" expanded="true" signature="147:370" ph="Параметры ракеты" />
+            <marker date="1563200375917" expanded="true" signature="433:2043" ph="{...}" />
+            <marker date="1563200375917" expanded="true" signature="468:541" ph="{...}" />
+            <marker date="1563200375917" expanded="true" signature="712:818" ph="{...}" />
+            <marker date="1563200375917" expanded="true" signature="848:2037" ph="{...}" />
+            <marker date="1563200375917" expanded="true" signature="1376:1670" ph="{...}" />
+            <marker date="1563200375917" expanded="true" signature="1691:1987" ph="{...}" />
+            <marker date="1563200375917" expanded="true" signature="2172:2331" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MathUtilities.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <folding>
+            <marker date="1563194555971" expanded="false" signature="6:78" ph="..." />
+            <marker date="1563194555971" expanded="true" signature="107:2189" ph="{...}" />
+            <marker date="1563194555971" expanded="true" signature="151:538" ph="{...}" />
+            <marker date="1563194555971" expanded="true" signature="227:532" ph="{...}" />
+            <marker date="1563194555971" expanded="true" signature="576:2187" ph="{...}" />
+            <marker date="1563194555971" expanded="true" signature="666:858" ph="{...}" />
+            <marker date="1563194555971" expanded="true" signature="757:817" ph="{...}" />
+            <marker date="1563194555971" expanded="true" signature="939:1092" ph="{...}" />
+            <marker date="1563194555971" expanded="true" signature="1147:1423" ph="{...}" />
+            <marker date="1563194555971" expanded="true" signature="1237:1304" ph="{...}" />
+            <marker date="1563194555971" expanded="true" signature="1321:1388" ph="{...}" />
+            <marker date="1563194555971" expanded="true" signature="1492:1703" ph="{...}" />
+            <marker date="1563194555971" expanded="true" signature="1529:1590" ph="{...}" />
+            <marker date="1563194555971" expanded="true" signature="1607:1668" ph="{...}" />
+            <marker date="1563194555971" expanded="true" signature="1782:2163" ph="{...}" />
+            <marker date="1563194555971" expanded="true" signature="1922:1979" ph="{...}" />
+            <marker date="1563194555971" expanded="true" signature="2027:2084" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AirCraft.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <marker date="1563137296234" expanded="false" signature="6:78" ph="..." />
+            <marker date="1563137296234" expanded="true" signature="80:169" ph="/// Это скрипт самолета. Скрипт приводит самолет в движение. ... " />
+            <marker date="1563137296234" expanded="true" signature="208:1809" ph="{...}" />
+            <marker date="1563137296234" expanded="true" signature="215:352" ph="Параметры самолета" />
+            <marker date="1563137296234" expanded="true" signature="358:433" ph="Приватные переменные" />
+            <marker date="1563137296234" expanded="true" signature="490:634" ph="{...}" />
+            <marker date="1563137296234" expanded="true" signature="673:739" ph="{...}" />
+            <marker date="1563137296234" expanded="true" signature="763:806" ph="{...}" />
+            <marker date="1563137296234" expanded="true" signature="833:1807" ph="{...}" />
+            <marker date="1563137296234" expanded="true" signature="975:1679" ph="{...}" />
+            <marker date="1563137296234" expanded="true" signature="1177:1236" ph="{...}" />
+            <marker date="1563137296234" expanded="true" signature="1531:1606" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RocketLauncher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+          <folding>
+            <marker date="1563203651827" expanded="true" signature="6:117" ph="..." />
+            <marker date="1563203651827" expanded="true" signature="119:268" ph="/// Это скрипт ракетной установки. Он ищет упреждение и управляет установкой, а так же считывает указание на пуск ... " />
+            <marker date="1563203651827" expanded="true" signature="313:8049" ph="{...}" />
+            <marker date="1563203651827" expanded="true" signature="377:1667" ph="Инспектор" />
+            <marker date="1563203651827" expanded="true" signature="1024:1107" ph="/// Минимальная дистанция для уничтожения цели ... " />
+            <marker date="1563203651827" expanded="true" signature="1219:1290" ph="/// Тип слижения за целью у ракеты ... " />
+            <marker date="1563203651827" expanded="true" signature="1364:1489" ph="/// Отслеживать скорость через перемещение между кадрами (Более натуральная погрешность) ... " />
+            <marker date="1563203651827" expanded="true" signature="1673:1828" ph="Локальные переменные" />
+            <marker date="1563203651827" expanded="true" signature="1854:1888" ph="{...}" />
+            <marker date="1563203651827" expanded="true" signature="1954:2057" ph="{...}" />
+            <marker date="1563203651827" expanded="true" signature="2104:2151" ph="{...}" />
+            <marker date="1563203651827" expanded="true" signature="2188:2432" ph="{...}" />
+            <marker date="1563203651827" expanded="true" signature="2490:2722" ph="{...}" />
+            <marker date="1563203651827" expanded="true" signature="2636:2716" ph="{...}" />
+            <marker date="1563203651827" expanded="true" signature="2754:3088" ph="{...}" />
+            <marker date="1563203651827" expanded="true" signature="3094:3203" ph="/// Наводит пусковую установку на упреждение ... " />
+            <marker date="1563203651827" expanded="true" signature="3234:5645" ph="{...}" />
+            <marker date="1563203651827" expanded="true" signature="3360:5422" ph="{...}" />
+            <marker date="1563203651827" expanded="true" signature="3371:3461" ph="/* if (_transformCheckSpeed) ... */" />
+            <marker date="1563203651827" expanded="true" signature="3499:3657" ph="{...}" />
+            <marker date="1563203651827" expanded="true" signature="3674:3769" ph="{...}" />
+            <marker date="1563203651827" expanded="true" signature="4094:4364" ph="{...}" />
+            <marker date="1563203651827" expanded="true" signature="4381:4653" ph="{...}" />
+            <marker date="1563203651827" expanded="true" signature="4696:5116" ph="{...}" />
+            <marker date="1563203651827" expanded="true" signature="4864:4945" ph="{...}" />
+            <marker date="1563203651827" expanded="true" signature="4966:5102" ph="{...}" />
+            <marker date="1563203651827" expanded="true" signature="5133:5301" ph="{...}" />
+            <marker date="1563203651827" expanded="true" signature="5866:6263" ph="{...}" />
+            <marker date="1563203651827" expanded="true" signature="6456:8042" ph="{...}" />
+            <marker date="1563203651827" expanded="true" signature="6718:7115" ph="{...}" />
+            <marker date="1563203651827" expanded="true" signature="7329:7799" ph="{...}" />
+            <marker date="1563203651827" expanded="true" signature="7531:7715" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
